@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* FIX: Proper centering */
 body {
     margin-left: 375px;
     justify-content: center;
@@ -13,7 +12,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Form container */
 .registration-form {
     background: #ffffff;
     border-radius: 20px;
@@ -23,7 +21,6 @@ body {
     width: 100%;
 }
 
-/* Title */
 .registration-form h2 {
     font-size: 30px;
     margin-bottom: 30px;
@@ -34,7 +31,6 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-/* Fields */
 .field {
     margin-bottom: 22px;
 }
@@ -68,7 +64,6 @@ body {
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
 }
 
-/* Error state */
 .field input.error,
 .field select.error,
 .field textarea.error {
@@ -82,7 +77,6 @@ body {
     margin-top: 6px;
 }
 
-/* Dropdown arrow */
 .field select {
     appearance: none;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath fill='%23667eea' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
@@ -91,7 +85,6 @@ body {
     padding-right: 40px;
 }
 
-/* Gender */
 .checkbox-group {
     display: flex;
     gap: 20px;
@@ -110,11 +103,9 @@ body {
     accent-color: #667eea;
 }
 
-/* ✅ FIX: Proper checkbox alignment */
 .field.checkbox label {
     display: flex;
     align-items: center;
-    /* ← FIX */
     gap: 10px;
     font-size: 14px;
     line-height: 1.4;
@@ -127,7 +118,6 @@ body {
     accent-color: #667eea;
 }
 
-/* Password strength */
 .strength {
     margin-top: 8px;
     font-size: 13px;
@@ -151,7 +141,6 @@ body {
     color: #2e7d32;
 }
 
-/* Submit button */
 button[type="submit"] {
     width: 100%;
     padding: 14px;
@@ -177,7 +166,6 @@ button[type="submit"]:disabled {
     box-shadow: none;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .registration-form {
         padding: 30px 24px;
