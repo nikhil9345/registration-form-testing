@@ -50,13 +50,13 @@ npx cypress run
 ## Screenshots
 
 ### Registration Form UI
-![Registration Form](screenshots/registration-form.png)
+![Registration Form](frontend\src\assets\image.png)
 
 ### Validation Errors
-![Validation Error](screenshots/validation-error.png)
+![Validation Error](frontend/cypress/screenshots/registration.cy.js/Logic-Validation.png)
 
 ### Cypress Test – Success
-![Cypress Success](screenshots/cypress-success.png)
+![Cypress Success](frontend\src\assets\cypress-pass.png)
 
 
 ## Key Features
