@@ -47,7 +47,17 @@ Ensure both Backend and Frontend servers are running, then:
 cd frontend
 npx cypress run
 ```
-*Screenshots are captured in `frontend/cypress/screenshots/`*
+## Screenshots
+
+### Registration Form UI
+![Registration Form](screenshots/registration-form.png)
+
+### Validation Errors
+![Validation Error](screenshots/validation-error.png)
+
+### Cypress Test – Success
+![Cypress Success](screenshots/cypress-success.png)
+
 
 ## Key Features
 - **MERN Stack**: Minimal implementation (No DB, simulation only).
